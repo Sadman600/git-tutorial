@@ -9,3 +9,8 @@ function calculator(callback) {
 calculator((some) => {
     document.getElementById('p1').innerHTML = some;
 });
+
+function myFunction() {
+    let x = document.getElementById('h1');
+      x.innerHTML = 'Hello git';
+}
